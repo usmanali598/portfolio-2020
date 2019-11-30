@@ -36,7 +36,7 @@ div.home-pics{
   justify-content: space-around;
 }
 div.croson{
-  background-image: url(./assets/imes/croisson.png);
+  background-image: url(./sets/imes/croisson.png);
   background-repeat: no-repeat;
   background-size: 100%;
   width: 300px;
@@ -44,7 +44,7 @@ div.croson{
   background-position: center;
 }
 div.laptop{
-  background-image: url(./assets/imes/laptop.png);
+  background-image: url(./sets/imes/laptop.png);
   background-repeat: no-repeat;
   background-size: 100%;
   width: 269px;
@@ -52,7 +52,7 @@ div.laptop{
   background-position: center;
 }
 div.cup{
-  background-image: url(./assets/imes/cup.png);
+  background-image: url(./sets/imes/cup.png);
   background-repeat: no-repeat;
   background-size: 100%;
   width: 269px;
@@ -74,7 +74,7 @@ div.cup{
 }
 @media only screen and (min-width: 1047px) {
   .home-main{
-    /* background-image: url(./assets/imes/home-panel.png); */
+    /* background-image: url(./sets/imes/home-panel.png); */
     background: #F7CC01;
     height: 440px;
   }
@@ -157,6 +157,31 @@ input.email{
   height: 41px;
   outline: 2px solid;
 }
+.sendBut:hover{
+  background: #212121;
+  color: #F7CC01;
+
+}
+
+.form-send{
+  margin: auto;
+  position: relative;
+}
+
+.invisConten{
+  position: relative;
+  margin: auto;
+}
+
+.invis{
+  width: 134px;
+  height: 73px;
+  background: transparent;
+  margin: auto;
+  position: absolute;
+  z-index: 1;
+}
+
 .sendBut{
   width: 134px;
   height: 43px;

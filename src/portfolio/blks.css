@@ -23,6 +23,7 @@
   
   .blk-text{
     text-align: center;
+    color:#007bff;
   }
 
   .slick-list{
@@ -30,7 +31,7 @@
   }
 
 .akt{
-    background-image: url(../assets/imes/akt.jpeg);
+    background-image: url(../sets/imes/akt.jpeg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -45,7 +46,7 @@
 }
 
 .stor{
-    background-image: url(../assets/imes/reit.png);
+    background-image: url(../sets/imes/reit.png);
     background-repeat: no-repeat;
     background-size: contain;
     height: 150px;
@@ -62,7 +63,7 @@
 }
 
 .nytim{
-    background-image: url(../assets/imes/neyrk.png);
+    background-image: url(../sets/imes/neyrk.png);
     background-repeat: no-repeat;
     background-size: contain;
     height: 150px;
@@ -78,7 +79,7 @@
 }
 
 .finkin{
-    background-image: url(../assets/imes/finkin.png);
+    background-image: url(../sets/imes/finkin.png);
     background-repeat: no-repeat;
     background-size: contain;
     height: 150px;
@@ -93,7 +94,7 @@
 
 }
 .anro{
-    background-image: url(../assets/imes/anr.png);
+    background-image: url(../sets/imes/anr.png);
     background-repeat: no-repeat;
     background-size: contain;
     height: 150px;
@@ -112,4 +113,10 @@
 
 .slick-prev:before, .slick-next:before{
     color: #0b086c !important;
+}
+/* intentionally making all para colors green */
+p:hover,
+a:hover{
+    text-decoration: none !important;
+    color: green !important;
 }

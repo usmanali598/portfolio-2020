@@ -53,36 +53,36 @@ export default class Blocks extends Component {
                 </div>
               </div>
               <div>
-              <div className='blocks' >
+              <div className='blocks' ><a href="https://usmanalicodes.netlify.com/" rel="noopener noreferrer" target='_blank'>
               <div className='nytim'> </div>
                   <div>
                     <p className='blk-text'>NYT Stories</p>
-                  </div>
+                  </div></a>
                 </div>   
                 
                 </div>
               <div>
-              <div className='blocks' >
+              <div className='blocks' ><a href="https://usmanaliredditapi.netlify.com/" rel="noopener noreferrer" target='_blank'>
               <div className='stor'> </div>
                   <div>
                     <p className='blk-text'>Reddit Feeds</p>
-                  </div>
+                  </div></a>
                 </div>                 
                 </div>
               <div>
-              <div className='blocks'>
+              <div className='blocks'><a href="https://upcomingshowsbyusman.netlify.com/" rel="noopener noreferrer" target='_blank'>
               <div className='finkin'> </div>
                   <div>
                     <p className='blk-text'>Finnkino Shows</p>
-                  </div>
+                  </div></a>
                 </div> 
               </div>
               <div>
-              <div className='blocks'>
+              <div className='blocks'><a href="https://play.google.com/store/apps/details?id=com.sometry.usman.proretro" rel="noopener noreferrer" target='_blank'>
               <div className='anro'> </div>
                   <div>
                     <p className='blk-text'>Location Tracking</p>
-                  </div>
+                  </div></a>
                 </div>               
               </div>
               </Slider>
