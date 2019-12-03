@@ -213,6 +213,7 @@ span.shutle{
   flex-direction: column;
 }
 
+
 .pic{
     display: flex;
     border-radius: 5px 20px 5px;
@@ -242,6 +243,10 @@ div.cont-ener{
   div.cont-ener {
     display: flex;
     flex-direction:column;
+  }
+
+  div.box {
+    height: 375px;
   }
 }
 
