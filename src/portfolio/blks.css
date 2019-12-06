@@ -30,21 +30,7 @@
       height: 300px;
   }
 
-.akt{
-    background-image: url(../sets/imes/akt.jpeg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    height: 150px;
-    /* height: 250px; */
-    margin:0px 20px;
-
-    /* width: 1485px; */
-    /* height: 80%; */
-    /* margin: 25px; */
-    /* box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px 0px, rgba(0, 0, 0, 0.19) 0px 6px 20px 0px; */
-}
-
+  
 .stor{
     background-image: url(../sets/imes/reit.png);
     background-repeat: no-repeat;

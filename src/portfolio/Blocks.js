@@ -45,14 +45,6 @@ export default class Blocks extends Component {
             <div className='conten' id='conten'>
                 <Slider {...settings}>
               <div>
-                <div className='blocks'>
-                  <div className='akt'> </div>
-                  <div>
-                    <p className='blk-text'>Saving Game</p>
-                  </div>
-                </div>
-              </div>
-              <div>
               <div className='blocks' ><a href="https://usmanalicodes.netlify.com/" rel="noopener noreferrer" target='_blank'>
               <div className='nytim'> </div>
                   <div>

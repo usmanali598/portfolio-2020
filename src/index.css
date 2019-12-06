@@ -1,5 +1,13 @@
-body {
-  margin: 0;
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    font-family: 'Signika', sans-serif !important;
+}
+/* body { */
   /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", */
     /* "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", */
     /* sans-serif; */
@@ -7,13 +15,12 @@ body {
   /* -moz-osx-font-smoothing: grayscale; */
   /* font-family: 'Inconsolata', monospace !important; */
   /* font-family: 'Shadows Into Light', cursive !important; */
-  font-family: 'Signika', sans-serif !important;
   /* font-family: 'Tomorrow', sans-serif !important; */
   /* font-family: 'Cinzel', serif !important; */
   /* font-family: 'Caveat', cursive !important; */
   /* font-family: 'Orbitron', sans-serif !important; */
   /* font-family: 'Great Vibes', cursive !important;  */
-}
+/* } */
 
 /* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
@@ -29,9 +36,29 @@ body {
 
 /* Home */
 
+
+.home-main{
+  width: auto;
+  /* height: 570px; */
+  background-color: #F7CC01;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.home-name{
+  text-align: center;
+  font-weight: bold;
+  font-size: 75px;
+  padding-top: 25px;
+}
+.home-quote{
+  text-align: center;
+  font-weight: bold;
+}
+
 div.home-pics{
   width: auto;
-  /* height: 400px; */
+  height: 265px;
   display: flex;
   justify-content: space-around;
 }
@@ -63,10 +90,11 @@ div.cup{
 @media only screen and (max-width: 530px) {
   .home-main{
     background-color: #F7CC01;
-    height: 300px;
+    height: 380px;
   }
   .home-pics{
-    height:300px;
+    /* height:300px; */
+    display: none !important;
   }
   div.cup, div.croson, div.laptop{
     display: none;
@@ -76,33 +104,16 @@ div.cup{
   .home-main{
     /* background-image: url(./sets/imes/home-panel.png); */
     background: #F7CC01;
-    height: 440px;
+    height: 540px;
   }
 }
 
-.home-main{
-  width: auto;
-  /* height: 600px; */
-  background-color: #F7CC01;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-.home-name{
-  text-align: center;
-  font-weight: bold;
-  font-size: 75px;
-}
-.home-quote{
-  text-align: center;
-  font-weight: bold;
-}
 
-.home-light::before{
+/* .home-light::before{ */
   /* content: '||||||||--------|||||||||'; */
   /* position: relative; */
   /* bottom: 17px; */
-}
+/* } */
 .home-light{
   margin: 20px auto 30px;
   padding: 0;
@@ -111,6 +122,28 @@ div.cup{
   /* border-top: solid 5px; */
   text-align: center;
 }
+
+div.ownCv{
+  width: 100%;
+  display: flex;
+}
+
+div.home-incv{
+  /* width: 20%; */
+  /* height: 35px; */
+  background: rgba(35, 181, 207, 0.4);
+  color: black;
+  border: solid 2px #212121;
+  border-radius: 40px;
+  font-size: 20px;
+  margin: auto;
+  display: flex;
+  text-align: center;
+}
+  div.home-incv p{
+    margin: auto;
+    padding: 5px 17px;
+  }
 
 /* Navbar */
 
@@ -148,7 +181,7 @@ a.nav-link:hover{
 textarea.msg{
   width: 80%;
   margin: 10px auto;
-  height: 341.2px;
+  height: 270px;
   outline: 2px solid;
 }
 input.email{
