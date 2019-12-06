@@ -280,6 +280,7 @@ div.cont-ener{
 
   div.box {
     height: 375px;
+    width: auto;
   }
 }
 
@@ -353,6 +354,7 @@ div.foot-cont{
     height: 120px;
     padding: 0;
     margin: 17px auto;
+    width: auto;
   }
 }
 
@@ -366,7 +368,7 @@ div.foot-cont{
   display: flex;
 }
 .inlow{
-  width: 72%;
+  /* width: 72%; */
   height: 21%;
   margin: auto;
   display: block;
