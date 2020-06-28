@@ -7,25 +7,7 @@ html,body
     overflow-x: hidden;
     font-family: 'Signika', sans-serif !important;
 }
-/* body { */
-  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", */
-    /* "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", */
-    /* sans-serif; */
-  /* -webkit-font-smoothing: antialiased; */
-  /* -moz-osx-font-smoothing: grayscale; */
-  /* font-family: 'Inconsolata', monospace !important; */
-  /* font-family: 'Shadows Into Light', cursive !important; */
-  /* font-family: 'Tomorrow', sans-serif !important; */
-  /* font-family: 'Cinzel', serif !important; */
-  /* font-family: 'Caveat', cursive !important; */
-  /* font-family: 'Orbitron', sans-serif !important; */
-  /* font-family: 'Great Vibes', cursive !important;  */
-/* } */
 
-/* code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-} */
 
 .ap-saa{
   width: 90%;
@@ -35,11 +17,8 @@ html,body
 }
 
 /* Home */
-
-
 .home-main{
   width: auto;
-  /* height: 570px; */
   background-color: #F7CC01;
   background-repeat: no-repeat;
   background-size: cover;
@@ -102,24 +81,17 @@ div.cup{
 }
 @media only screen and (min-width: 1047px) {
   .home-main{
-    /* background-image: url(./sets/imes/home-panel.png); */
     background: #F7CC01;
     height: 540px;
   }
 }
 
 
-/* .home-light::before{ */
-  /* content: '||||||||--------|||||||||'; */
-  /* position: relative; */
-  /* bottom: 17px; */
-/* } */
 .home-light{
   margin: 20px auto 30px;
   padding: 0;
   max-width: 250px;
   border: 1px dashed;
-  /* border-top: solid 5px; */
   text-align: center;
 }
 
@@ -129,8 +101,6 @@ div.ownCv{
 }
 
 div.home-incv{
-  /* width: 20%; */
-  /* height: 35px; */
   background: rgba(35, 181, 207, 0.4);
   color: black;
   border: solid 2px #212121;
@@ -164,17 +134,12 @@ a.active {
 a.nav-link{
   color: white !important;
   text-transform: uppercase;
-  /* font-family: 'Courier New', Courier, monospace; */
   font-weight: bold;
 }
 a.nav-link:hover{
   background:#fdd200;
   color: black !important;
 }
-
-/* .navbar{
-  height: 75px;
-} */
 
 
 /* Form */
@@ -239,7 +204,6 @@ span.shutle{
   padding: 20px;
   display: -webkit-flex;
   display: flex;
-  /* box-shadow: 0 4px 8px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19); */
   margin: 20px 25px;
   box-sizing: border-box;
   -webkit-flex-direction: column;
@@ -260,7 +224,6 @@ span.shutle{
 .tit-le{
   text-align: center;
   margin: 10px auto;
-  /* font-weight: bold; */
 }
 
 .teh-text{
@@ -368,7 +331,6 @@ div.foot-cont{
   display: flex;
 }
 .inlow{
-  /* width: 72%; */
   height: 21%;
   margin: auto;
   display: block;
