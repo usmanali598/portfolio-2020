@@ -63,7 +63,7 @@ div.home-pics{
   justify-content: space-around;
 }
 div.croson{
-  background-image: url(./sets/imes/croisson.png);
+  background-image: url(./sets/image/croisson.png);
   background-repeat: no-repeat;
   background-size: 100%;
   width: 300px;
@@ -71,7 +71,7 @@ div.croson{
   background-position: center;
 }
 div.laptop{
-  background-image: url(./sets/imes/laptop.png);
+  background-image: url(./sets/image/laptop.png);
   background-repeat: no-repeat;
   background-size: 100%;
   width: 269px;
@@ -79,7 +79,7 @@ div.laptop{
   background-position: center;
 }
 div.cup{
-  background-image: url(./sets/imes/cup.png);
+  background-image: url(./sets/image/cup.png);
   background-repeat: no-repeat;
   background-size: 100%;
   width: 269px;

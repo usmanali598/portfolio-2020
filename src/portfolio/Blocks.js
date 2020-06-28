@@ -6,9 +6,9 @@ import '../../node_modules/slick-carousel/slick/slick.css'
 
 
 export default class Blocks extends Component {
-    render() {
-        const settings = {
-            dots: false,
+  render() {
+    const settings = {
+      dots: false,
       infinite: false,
       speed: 500,
       slidesToShow: 4,
@@ -40,45 +40,53 @@ export default class Blocks extends Component {
           }
         }
       ]
-          };
-        return (
-            <div className='conten' id='conten'>
-                <Slider {...settings}>
-              <div>
-              <div className='blocks' ><a href="https://usmanalicodes.netlify.com/" rel="noopener noreferrer" target='_blank'>
+    };
+    return (
+      <div className='conten' id='conten'>
+        <Slider {...settings}>
+          <div>
+            <div className='blocks' ><a href="https://usmanalicodes.netlify.com/" rel="noopener noreferrer" target='_blank'>
               <div className='nytim'> </div>
-                  <div>
-                    <p className='blk-text'>NYT Stories</p>
-                  </div></a>
-                </div>   
-                
-                </div>
               <div>
-              <div className='blocks' ><a href="https://usmanaliredditapi.netlify.com/" rel="noopener noreferrer" target='_blank'>
-              <div className='stor'> </div>
-                  <div>
-                    <p className='blk-text'>Reddit Feeds</p>
-                  </div></a>
-                </div>                 
-                </div>
-              <div>
-              <div className='blocks'><a href="https://upcomingshowsbyusman.netlify.com/" rel="noopener noreferrer" target='_blank'>
-              <div className='finkin'> </div>
-                  <div>
-                    <p className='blk-text'>Finnkino Shows</p>
-                  </div></a>
-                </div> 
-              </div>
-              <div>
-              <div className='blocks'><a href="https://play.google.com/store/apps/details?id=com.sometry.usman.proretro" rel="noopener noreferrer" target='_blank'>
-              <div className='anro'> </div>
-                  <div>
-                    <p className='blk-text'>Location Tracking</p>
-                  </div></a>
-                </div>               
-              </div>
-              </Slider>
+                <p className='blk-text'>NYT Stories</p>
+              </div></a>
             </div>
-        )
-    }
+
+          </div>
+          <div>
+            <div className='blocks' ><a href="https://usmanaliredditapi.netlify.com/" rel="noopener noreferrer" target='_blank'>
+              <div className='stor'> </div>
+              <div>
+                <p className='blk-text'>Reddit Feeds</p>
+              </div></a>
+            </div>
+          </div>
+          <div>
+            <div className='blocks' ><a href="https://todotext-list.netlify.app/" rel="noopener noreferrer" target='_blank'>
+              <div className='todo'> </div>
+              <div>
+                <p className='blk-text'>Todo Textarea Typescript</p>
+              </div></a>
+            </div>
+          </div>
+          <div>
+            <div className='blocks'><a href="https://upcomingshowsbyusman.netlify.com/" rel="noopener noreferrer" target='_blank'>
+              <div className='finkin'> </div>
+              <div>
+                <p className='blk-text'>Finnkino Shows</p>
+              </div></a>
+            </div>
+          </div>
+          <div>
+            <div className='blocks'><a href="https://play.google.com/store/apps/details?id=com.sometry.usman.proretro" rel="noopener noreferrer" target='_blank'>
+              <div className='anro'> </div>
+              <div>
+                <p className='blk-text'>Location Tracking</p>
+              </div></a>
+            </div>
+          </div>
+        </Slider>
+      </div>
+    )
+  }
 }
