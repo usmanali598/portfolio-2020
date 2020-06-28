@@ -65,7 +65,7 @@ export default class Blocks extends Component {
             <div className='blocks' ><a href="https://todotext-list.netlify.app/" rel="noopener noreferrer" target='_blank'>
               <div className='todo'> </div>
               <div>
-                <p className='blk-text'>Todo Textarea Typescript</p>
+                <p className='blk-text'>Todo Typescript</p>
               </div></a>
             </div>
           </div>
