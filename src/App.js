@@ -14,8 +14,6 @@ export default class App extends Component {
         <Home />
         <Tehtava />
         <hr className='ap-saa'></hr>
-        <h2 style={{padding:'30px'}}>These Projects and most of their URLs are outdated. 
-        It has been a long time to touch these projects and this portfolio site so no time and interest to maintain for now.</h2>
         <Blocks />
         <Form />
         <Footer />

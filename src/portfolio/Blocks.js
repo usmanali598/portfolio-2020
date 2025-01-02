@@ -45,7 +45,7 @@ export default class Blocks extends Component {
       <div className='conten' id='conten'>
         <Slider {...settings}>
           <div>
-            <div className='blocks' ><a href="https://usmanalicodes.netlify.com/" rel="noopener noreferrer" target='_blank'>
+            <div className='blocks' ><a href="https://usmanalicodes.netlify.app/" rel="noopener noreferrer" target='_blank'>
               <div className='nytim'> </div>
               <div>
                 <p className='blk-text'>NYT Stories</p>
@@ -54,7 +54,7 @@ export default class Blocks extends Component {
 
           </div>
           <div>
-            <div className='blocks' ><a href="https://usmanaliredditapi.netlify.com/" rel="noopener noreferrer" target='_blank'>
+            <div className='blocks' ><a href="https://usmanaliredditapi.netlify.app/" rel="noopener noreferrer" target='_blank'>
               <div className='stor'> </div>
               <div>
                 <p className='blk-text'>Reddit Feeds</p>
@@ -70,7 +70,7 @@ export default class Blocks extends Component {
             </div>
           </div>
           <div>
-            <div className='blocks'><a href="https://upcomingshowsbyusman.netlify.com/" rel="noopener noreferrer" target='_blank'>
+            <div className='blocks'><a href="https://upcomingshowsbyusman.netlify.app/" rel="noopener noreferrer" target='_blank'>
               <div className='finkin'> </div>
               <div>
                 <p className='blk-text'>Finnkino Shows</p>
