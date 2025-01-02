@@ -15,11 +15,6 @@ export default class Home extends Component {
                         <div className='laptop'></div>
                         <div className='cup'></div>
                 </div>
-                <div className="ownCv">
-                <div className='home-incv' onClick={() => window.open(require('../sets/UsmanCv.pdf'), '_none')}>
-                        <p> Curiculum Vitae(CV)</p>
-                    </div>
-                </div>
             </div>
         )
     }
